@@ -1,14 +1,14 @@
 .first-banner {
     display: flex;
-    width: 100%;
+    width: auto;
     border-radius: 24px;
     background: rgb(198, 228, 214);
     justify-content: space-between;
-    row-gap: 10px;
+    /* row-gap: 10px; */
 }
 
 .whole {
-    margin: 40px 20px;
+    /* margin: 40px 20px; */
     align-items: center;
     padding: 80px 100px 80px 100px;
     font-family: Fira Sans;
@@ -19,12 +19,17 @@
     /* margin-top: 100px;
     margin-left: 50px; */
     margin: 100px 50px;
+    padding: 80px 80px 20px 80px;
+}
+
+.heda {
+    font-size: 56px;
 }
 
 .image {
-    align-items: center;
+    padding: 100px 80px 80px 80px;
     margin: 50px 0px;
-    gap: 64px;
+    /* gap: 64px; */
 
 }
 
@@ -49,7 +54,7 @@
 .banner-title {
     color: rgba(14, 14, 14, 0.5);
     font-family: Fira Sans;
-    font-size: 16x;
+    font-size: 20px;
 }
 
 .banner2 {
@@ -179,4 +184,39 @@ p {
     display: flex;
     flex-direction: column;
     gap: 24px;
+}
+
+.donate {
+    text-align: center;
+}
+
+.box {
+    /* box-sizing: border-box; */
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: white;
+    display: block;
+    padding: 20px 20px 20px 20px;
+}
+
+.box-container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.colors {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
+
+.fnt {
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
 }
