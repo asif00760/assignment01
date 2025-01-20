@@ -51,3 +51,132 @@
     font-family: Fira Sans;
     font-size: 16x;
 }
+
+.banner2 {
+    margin-top: 60px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.skill p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.vision-container {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 50px;
+}
+
+.btn {
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    padding: 11px 20px 11px 20px;
+    border: none;
+}
+
+.vision {
+    display: flex;
+    gap: 24px;
+}
+
+.vision p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.color1 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+}
+
+.color2 {
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+}
+
+.btn1 {
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    padding: 11px 20px 11px 20px;
+    border: none;
+}
+
+.btn2 {
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    padding: 11px 20px 11px 20px;
+    border: none;
+}
+
+p {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.news {
+    display: flex;
+    gap: 34px;
+    border-radius: 24px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    align-items: center;
+    padding: 48px 48px 48px 48px;
+}
+
+.news .sobi {
+    border-radius: 24px;
+    background: url(image);
+}
+
+.btn-news {
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    padding: 11px 20px 11px 20px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(0, 106, 80);
+}
+
+.news-rc {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
